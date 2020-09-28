@@ -35,6 +35,9 @@
         td.blue{background-color: #234E54;}
         
         p.comentarios {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: dotted;
     font-size: 2;
     font-weight: lighter;
     font-style: italic;
@@ -42,11 +45,18 @@
         
         #pregunta2,#pregunta1,#pregunta3,#pregunta4,#pregunta5,#pregunta6
         {
-        color: #755E8B;
+        color: #B41B96;
         font-family: Verdana;}
         
         span.negrita
+        {font-weight: bold;
+        background-color: yellow}
+        
+        span.negrita2
         {font-weight: bold}
+        
+        
+
         
         
 		
@@ -138,7 +148,7 @@
       <font>
 	  <li type="circle" id="pregunta2">id: Pregunta2 - Decora los li que corresponden a las preguntas (identificados con pregunta1, pregunta2, ...) con letra Verdana y otro tipo de marcador, deja el resto igual, por ejemplo los siguientes.</li></font>
 	  <li>Sin id - aaa</li>
-	  <li>Sin id - bbb, <span class="negrita">aquí un texto en negrita que no establece el fondo en amarillo</span></li>
+	  <li>Sin id - bbb, <span class="negrita2">aquí un texto en negrita que no establece el fondo en amarillo</span></li>
 	  <li>Sin id - ccc</li>
         </ul>
 	<p class="comentarios">Como las preguntas tienen un id, utilizaremos un estilo para li[id]</p>

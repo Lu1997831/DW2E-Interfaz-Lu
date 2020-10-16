@@ -7,14 +7,23 @@
         
       }
     
-	.containt{
-	  width: 200px;
-	  height: 200px;
+	#containt{
+	  width: 12.5em;
+	  height: 12.5em;
     /*background:url(images/logo.png);*/
+	  box-shadow: 10px 10px 5px black;
 	  
-	  
-      overflow: scroll}
+      overflow: auto}
+    
+    body{
+        background:#ffff url=('madrid.jpg')
+            repeat;
+    }
 
+    #containt img{
+        width: 12.5em;
+        height:13.75em
+    }
 	
 
 	
@@ -23,8 +32,10 @@
 
     <body>
 
-	<div class="containt">hey</div>
-    <img src="images/logo.png"  width="300" height="300">
+	<div id="containt">
+        <img src="images/logo.png">
+        </div>
+    
         
 	
 

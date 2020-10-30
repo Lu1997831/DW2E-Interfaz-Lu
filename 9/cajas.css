@@ -1,0 +1,25 @@
+* {
+  margin: 0 10px;
+}
+
+div#container h1 {
+  border: 2px solid #00F;
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div#container h2 {
+  border: 2px solid #AAA;
+  padding-left: 0.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+div#container ul {
+  border: 2px solid #0F0;
+}
+
+div#container li + li {
+  margin-top: 1em;
+}
